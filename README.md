@@ -1,6 +1,6 @@
 # Accurate-Subpixel-Edge-Location
 Accurate Subpixel Edge Location Based on Partial Area Effect
-Abstract：
+Abstract：  
 &emsp;&emsp;The estimation of edge features, such as subpixel position, orientation, curvature and change in intensity at
 both sides of the edge, from the computation of the gradient vector in each pixel is usually inexact, even in
 ideal images. In this paper, we present a new edge detector based on an edge and acquisition model derived
@@ -15,7 +15,7 @@ as well as in sets of synthetic images with extremely difficult edges, and in bo
 has been achieved.
 
 # 摘要：
-基于局部区域效应的精确亚像素边缘定位方法
+基于局部区域效应的精确亚像素边缘定位方法  
 &emsp;&emsp;摘要：从每个像素的梯度矢量来计算边缘特征，比如亚像素位置、方向、曲率和边缘两侧强度的变化等，即使是在理想图像下也通常是不准确的。在本文中，我们提出了一种新的边缘检测方法，该方法是由局部区域效应推导出的边缘采集模型，并且假设其在图像值上是不连续的。该方法的主要目标是实现即使在有噪声，边缘模糊，对比度低或者双边缘接近等困难情况下，也能对边缘的位置、方向、曲率和边缘对比度进行高精确提取。为此，我们首先分析了理想直线或圆形区域周边边缘的影响，当这些条件都满足时，边缘特征便可以准确确定。随后，我们把它扩展到更实际的情况，考虑如何在不利条件下进行计算，并提出了一种改善结果的迭代方案。我们已经用该方法测试了在实际场景以及用困难边缘合成的图像，并且在这两种情况下都实现了对边缘特征的高度精确描述。
 
 C++ implementation of 《Accurate Subpixel Edge Location Based on Partial Area Effect》  
