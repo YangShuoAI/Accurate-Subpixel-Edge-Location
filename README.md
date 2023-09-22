@@ -12,8 +12,8 @@ region, in such a way that, when these conditions are fulfilled, the features ca
 Afterward, we extend it to more realistic situations considering how adverse conditions can be
 tackled and presenting an iterative scheme for improving the results. We have tested this method in real
 as well as in sets of synthetic images with extremely difficult edges, and in both cases a highly accurate characterization
-has been achieved.
-https://zhuanlan.zhihu.com/p/649242922
+has been achieved.  
+https://zhuanlan.zhihu.com/p/649242922  
 # 摘要：
 基于局部区域效应的精确亚像素边缘定位方法  
 &emsp;&emsp;摘要：从每个像素的梯度矢量来计算边缘特征，比如亚像素位置、方向、曲率和边缘两侧强度的变化等，即使是在理想图像下也通常是不准确的。在本文中，我们提出了一种新的边缘检测方法，该方法是由局部区域效应推导出的边缘采集模型，并且假设其在图像值上是不连续的。该方法的主要目标是实现即使在有噪声，边缘模糊，对比度低或者双边缘接近等困难情况下，也能对边缘的位置、方向、曲率和边缘对比度进行高精确提取。为此，我们首先分析了理想直线或圆形区域周边边缘的影响，当这些条件都满足时，边缘特征便可以准确确定。随后，我们把它扩展到更实际的情况，考虑如何在不利条件下进行计算，并提出了一种改善结果的迭代方案。我们已经用该方法测试了在实际场景以及用困难边缘合成的图像，并且在这两种情况下都实现了对边缘特征的高度精确描述。
